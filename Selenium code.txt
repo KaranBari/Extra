@@ -1,0 +1,37 @@
+package com.Selenium;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.capg.bdd.Log_4j.App;
+import com.google.common.annotations.VisibleForTesting;
+
+import junit.framework.TestCase;
+
+public class AlertExample extends TestCase {
+	WebDriver driver;
+	static Logger logger = Logger.getLogger(AlertExample.class.getName());
+	@Test
+	public void ExampleForAlert() throws InterruptedException
+	{
+		System.setProperty("webdriver.chrome.driver", "D:\\karan jenkins\\Driver Files for Selenium\\"
+	+"chromedriver.exe");
+		driver = new ChromeDrier();
+		driver.manage().window().maximize();
+		driver.get("file:///D:/karan_bdd/Alerts.html");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//button[@onclick="+"'alertFunction()']")).click();
+		Alert alert= driver.switchTo().alert();
+		logger.info(alert.getText());
+		alert.accept();
+		logger.info("Done");
+	}
+
+}
+
+
+
+
+
