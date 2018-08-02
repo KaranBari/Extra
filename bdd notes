@@ -1,0 +1,185 @@
+https://github.com/srinivaskolaparthi/FreshersHyd260118
+https://github.com/kolaparthisrini
+---------------------------------------------------------------------------------------------------------------
+html5test.com    // to check browser score
+
+https://kangax.github.io/
+
+poyfills in html5     //browser fallback  // get polyfills from github 
+
+learn firebug
+
+content management system ex- adobe
+
+Scrapping
+
+owasp.org to check software security
+
+AntiSamy Rules 
+
+http headers
+
+Corporate Repo // Nexus Sonatype
+
+Retention Policy
+
+--------------------------------------------------------------------------------------------------------------
+javascript is single threaded, 
+oop in javascript use typescript/coeffe script/dart
+js does not support db
+js do not provide I/O operation
+js is very poor in exception handling to overcome use extension
+js is not secure, script injections
+js does not support security algo. But support jaas/kerberos/oauth/saml/json tokens==== for sso
+
+
+to overcome above problem ue NODEJS
+
+---------------------------------------------------------------------------------------------------------------
+learn
+eval    arrays in js    loops   json and basic func   string    isNan
+
+---------------------------------------------------------------------------------------------------------------
+javaScript Engines
+
+spider monkey(Mozilla), v8(google), nitro(apple), chakra(microsoft IE)
+
+---------------------------------------------------------------------------------------------------------------
+Learn
+
+
+Filter for antisamy
+session migration
+script injection
+session invalidation
+
+CORS              
+{
+    OWASP CSRFGuard Projects  
+    Null Dereference
+    Hibernate Guidlines
+    Return Inside Finally Block
+    Logout
+    Missing Error Handling
+}
+
+LOG4 or SL4J
+Sonrqube java api
+Maven
+MAven Profile   \\for sonarqube sonar is profile    //sonar:sonar  ~(clean install)
+---------------------------------------------------------------------------------------------------------------
+
+
+SonarQube use jetty as server
+
+Avoid SOP, Use LOG4 or SL4J   
+cloud:- Loggy, sentry, AWS Logservice
+
+sonarqube default port 9000   //can change in sonar properties in config folder
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+                                              BDD
+                                       -----------------------
+                                       
+                                       
+TDD:-     Junit/TestNg
+          Mockito                  //deals with dummy object                //no static concept
+          Power Mockito
+
+BDD:-   Cucumber or Specflow
+
+
+Selinium+TDD+BDD+Devops Rules             //selinium for automation, selinium used for webapplication
+
+
+feature file-> Step defination file  ~ test case ~ tdd file     //preety compiler
+
+data tables   //
+
+
+                                       
+                                       
+
+---------------------------------------------------------------------------------------------------------------
+
+java -jar jenkins.war --httpPort=9999
+git add *
+
+StartSonar
+---------------------------------------------------------------------------------------------------------------
+Proxy Details in Jenkins
+hpi
+jenkins cluster
+JNI/JNLP
+
+
+---------------------------------------------------------------------------------------------------------------
+CloudBees and Digital Ocean are advanced versions of jenkins
+
+---------------------------------------------------------------------------------------------------------------
+                                                Log4J
+                                           -------------------------
+i/o     -> Nio used by log4j1       -> Nio2(resourse utilization is good) used by log4j2
+
+sop is heavy weight it creates 3 references in bg       //heap issue        -> loggin
+
+system(in,out,error)
+message(log modes->(info,warning,error,fatal,trace))
+
+log4j1(based on java 1.6)
+
+log4j       -> log4j.properties  //no inheritance here as pom.xml
+maven       -> pom.xml
+
+Logger  logger = Logger.getLogger("class name");        //creating object
+logger.setLevel(Level.INFO);                             //setting mode   
+log4j.rootLogger=DEBUG, A1                        //setting mode  can also be done through properties file
+
+log4j.appender.A1=org.apache.log4j.ConsoleAppender          // where to move the logs
+
+
+to display log msg  (logMode+timestamp+lineno)   <-Pattern layout
+DailyRollingFileAppender            //to take log on daily basis
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+                                            MANUAL TESTING
+                                      ----------------------------
+
+Regression Testing
+UAT 
+Load Testing
+Unit Testing
+SMOKE Testing
+Black & White Box Testing
+
+
+
+---------------------------------------------------------------------------------------------------------------
+                                                    Selenium
+                                           ---------------------------
+Web Application Development
+
+Selinium Rc
+Selinium Grid
+Selinium core
+Selinium  Ide
+
+
+But Sikuli is for both web and desktop
+
+Diff Web Driver(Executable Jar file) for diff browser provided by selinium
+
+
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+
